@@ -1,0 +1,13 @@
+ext {
+    //support dependencies
+    supportLibrary = "24.2.0"
+    //test dependencies
+    junitVersion = "4.12"
+
+    supportDependencies = [
+            appcompat    : "com.android.support:appcompat-v7:${supportLibrary}"
+    ]
+    testDependencies = [
+            junit        : "junit:junit:${junitVersion}"
+    ]
+}
