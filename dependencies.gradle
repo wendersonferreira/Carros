@@ -1,6 +1,6 @@
 ext {
     //support dependencies
-    supportLibrary = "24.2.0"
+    supportLibrary = "24.2.1"
     //test dependencies
     junitVersion = "4.12"
 
